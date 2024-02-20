@@ -143,7 +143,7 @@ def start(start):
         start_dict = {}
         start_dict['min_temp'] = min
         start_dict['max_temp'] = max
-        start_dict['avg_temp'] = round(avg, 2)
+        start_dict['avg_temp'] = avg
 
         start_tobs.append(start_dict)
 
@@ -163,7 +163,7 @@ def start_end(start, end):
         start_dict = {}
         start_dict['min_temp'] = min
         start_dict['max_temp'] = max
-        start_dict['avg_temp'] = round(avg, 2)
+        start_dict['avg_temp'] = avg
 
         start_end_tobs.append(start_dict)
 
